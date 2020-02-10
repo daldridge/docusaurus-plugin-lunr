@@ -1,5 +1,5 @@
 {
-  "name": "@c12e/docusaurus-plugin-lunr",
+  "name": "@daldridge/docusaurus-plugin-lunr",
   "version": "1.0.0-alpha.1",
   "description": "Lunr Search for Docusaurus",
   "author": "David Aldridge",

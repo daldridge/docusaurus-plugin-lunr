@@ -11,7 +11,7 @@ Docusaurus v2 plugin to create a local search index for use with Lunr.js
 Install the plugin with npm:
 
 ```bash
-npm install --save @daldridge/docusaurus-plugin-lunr
+npm install --save @aldridged/docusaurus-plugin-lunr
 ```
 
 Add the plugin do `docusaurus.config.js`:
@@ -21,7 +21,7 @@ module.exports = {
   // ...
   plugins: [
     // ...
-    '@daldridge/docusaurus-plugin-lunr'
+    '@aldridged/docusaurus-plugin-lunr'
   ]
 };
 ```

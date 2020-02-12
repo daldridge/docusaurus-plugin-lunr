@@ -33,6 +33,10 @@ export default function pluginContentLunr(
   return {
     name: 'docusaurus-plugin-lunr',
 
+    getThemePath(): string {
+      return path.resolve(__dirname, '../theme');
+    },
+
     // tslint:disable-next-line: readonly-array
     getPathsToWatch(): string[] {
       const { include } = options;
@@ -79,7 +83,7 @@ export default function pluginContentLunr(
     contentLoaded({
       content,
       actions
-    } : {
+    }: {
       readonly content: LoadedContent,
       readonly actions: PluginContentLoadedActions
     }): void {

@@ -60,6 +60,7 @@
   "dependencies": {
     "@docusaurus/types": "^2.0.0-alpha.40",
     "@docusaurus/utils": "^2.0.0-alpha.40",
+    "autocomplete.js": "^0.37.1",
     "fs-extra": "^8.1.0",
     "globby": "^11.0.0",
     "lodash": "^4.17.15",

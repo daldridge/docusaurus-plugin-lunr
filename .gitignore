@@ -1,6 +1,5 @@
 node_modules
 build
-src/**.js
 .idea/*
 
 coverage

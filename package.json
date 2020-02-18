@@ -1,6 +1,6 @@
 {
   "name": "@aldridged/docusaurus-plugin-lunr",
-  "version": "1.0.0-alpha.4",
+  "version": "1.0.0-alpha.5",
   "description": "Lunr Search for Docusaurus",
   "author": "David Aldridge",
   "keywords": [

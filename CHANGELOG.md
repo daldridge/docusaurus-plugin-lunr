@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0-alpha.5](https://github.com/daldridge/docusaurus-plugin-lunr/compare/v1.0.0-alpha.4...v1.0.0-alpha.5) (2020-02-18)
+
+
+### Bug Fixes
+
+* annotated dynamic import of generated search index with webpackChunkName so it gets its own bundle ([5358389](https://github.com/daldridge/docusaurus-plugin-lunr/commit/5358389dffbd400c9e5426631dc2d2ea4ca7dee3))
+
 ## [1.0.0-alpha.4](https://github.com/daldridge/docusaurus-plugin-lunr/compare/v1.0.0-alpha.2...v1.0.0-alpha.4) (2020-02-12)
 
 

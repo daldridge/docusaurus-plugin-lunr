@@ -25,7 +25,7 @@ export default function useDocusaurusDocsVersion() {
       const maybeVersion = versionPath.segment(0);
 
       try {
-        const knownVersions = await import('@site/versions.json');
+        const { default: knownVersions } = await import('@site/versions.json');
         const currentVersion = concat(knownVersions, 'next').includes(maybeVersion) ? maybeVersion : head(knownVersions);
         // tslint:disable-next-line: no-expression-statement
         setVersion(currentVersion);

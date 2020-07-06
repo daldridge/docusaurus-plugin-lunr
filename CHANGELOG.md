@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0-alpha.9](https://github.com/daldridge/docusaurus-plugin-lunr/compare/v1.0.0-alpha.8...v1.0.0-alpha.9) (2020-07-06)
+
+
+### Bug Fixes
+
+* @docusaurus/utils no longer exports a parse() method. Use parseMarkdownString() instead. ([d93e646](https://github.com/daldridge/docusaurus-plugin-lunr/commit/d93e646e73101ccd197e0a194ada16bc916aca9b))
+
 ## [1.0.0-alpha.8](https://github.com/daldridge/docusaurus-plugin-lunr/compare/v1.0.0-alpha.7...v1.0.0-alpha.8) (2020-04-22)
 
 ## [1.0.0-alpha.7](https://github.com/daldridge/docusaurus-plugin-lunr/compare/v1.0.0-alpha.6...v1.0.0-alpha.7) (2020-02-19)

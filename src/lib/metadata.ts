@@ -1,4 +1,4 @@
-import { aliasedSitePath, normalizeUrl, parse } from '@docusaurus/utils';
+import { aliasedSitePath, normalizeUrl, parseMarkdownString } from '@docusaurus/utils';
 import fs from 'fs-extra';
 import path from 'path';
 import removeMd from 'remove-markdown';
@@ -38,7 +38,7 @@ export default async function processMetadata({
 
   const contents = await fileStringPromise;
   const plaintext = removeMd(striptags(contents));
-  const { frontMatter = {}, excerpt } = parse(contents);
+  const { frontMatter = {}, excerpt } = parseMarkdownString(contents);
 
   const baseID = frontMatter.id || path.basename(source, path.extname(source));
   // tslint:disable-next-line: no-if-statement

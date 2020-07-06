@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0-alpha.10](https://github.com/daldridge/docusaurus-plugin-lunr/compare/v1.0.0-alpha.9...v1.0.0-alpha.10) (2020-07-06)
+
+
+### Bug Fixes
+
+* Update plugin export to conform to what Docusaurus 2.0.0-alpha.58 expects ([d6040fa](https://github.com/daldridge/docusaurus-plugin-lunr/commit/d6040fa3c57748473c9d044b6553be648f25a6f6))
+
 ## [1.0.0-alpha.9](https://github.com/daldridge/docusaurus-plugin-lunr/compare/v1.0.0-alpha.8...v1.0.0-alpha.9) (2020-07-06)
 
 

@@ -41,7 +41,7 @@ The index contains the following fields for each document:
 
 ## SearchBar component
 
-The plugin includes a theme SearchBar theme component which consumes the Lunr index. By including the plugin in the
+The plugin includes a theme SearchBar theme component that consumes the Lunr index. By including the plugin in the
 Docusaurus config, the Navbar will include the SearchBar component which uses the generated search index. This works
 because the plugin-generated index is available via import, as the Docusaurus v2 core Webpack configuration configures
 an alias for `@generated`.
@@ -49,7 +49,7 @@ an alias for `@generated`.
 ## Known limitations
 
 The custom React hook used by the SearchBar component performs a dynamic import via `import(@site/versions.json)`. If
-a versions.json file is not present at the root of your docs repo, this will throw, and you apparently not catch that
+a versions.json file is not present at the root of your docs repo, this will throw, and you apparently do not catch that
 error and use a default empty array. The versions.json file is not created until you use the Docusaurus CLI to archive
-a varsion. Note that this plugin does not actually require you to have versions -- it only needs version.json, so the
-current suggestion is to manually create the file with emtpy array contents.
+a version. Note that this plugin does not actually require you to have versions -- it only needs version.json, so the
+current suggestion is to manually create the file with empty array contents.

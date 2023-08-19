@@ -51,5 +51,5 @@ an alias for `@generated`.
 The custom React hook used by the SearchBar component performs a dynamic import via `import(@site/versions.json)`. If
 a versions.json file is not present at the root of your docs repo, this will throw, and you apparently not catch that
 error and use a default empty array. The versions.json file is not created until you use the Docusaurus CLI to archive
-a varsion. Note that this plugin does not actually require you to have versions -- it only needs version.json, so the
-current suggestion is to manually create the file with emtpy array contents.
+a version. Note that this plugin does not actually require you to have versions -- it only needs version.json, so the
+current suggestion is to manually create the file with empty array contents.
